@@ -38,6 +38,8 @@ optional arguments:
 </pre>
 
 ### Dependency:
+<pre>
 cvxpy                              1.0.31
 pandas                             0.20.2
 numpy                              1.16.6
+</pre>
