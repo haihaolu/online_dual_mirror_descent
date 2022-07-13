@@ -1,5 +1,5 @@
 # Dual Mirror Descent for Online Allocation Problems
-This repo consists Pytorch code for the OR paper "[The best of many worlds: Dual mirror descent for online allocation problems](https://pubsonline.informs.org/doi/abs/10.1287/opre.2021.2242?journalCode=opre)".
+This repo consists python code for the OR paper "[The best of many worlds: Dual mirror descent for online allocation problems](https://pubsonline.informs.org/doi/abs/10.1287/opre.2021.2242?journalCode=opre)".
 
 ## Experiment 1: Online Linear Programming
 
