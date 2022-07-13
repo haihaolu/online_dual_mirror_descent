@@ -1,0 +1,6 @@
+advertiser: 1 rho: 0.0022107376566585
+advertiser: 2 rho: 0.0008551602649918
+advertiser: 3 rho: 0.0072762808351706
+advertiser: 4 rho: 0.0003304641402571
+advertiser: 5 rho: 0.0003304641402571
+advertiser: 6 rho: 0.1947978200157409
