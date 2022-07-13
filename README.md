@@ -1,6 +1,7 @@
-Description of the code for paper "The best of many worlds: Dual mirror descent for online allocation problems".
+# Dual Mirror Descent for Online Allocation Problems
+This repo consists Pytorch code for the OR paper "[The best of many worlds: Dual mirror descent for online allocation problems](https://pubsonline.informs.org/doi/abs/10.1287/opre.2021.2242?journalCode=opre)".
 
-Experiment 1: Online Linear Programming
+## Experiment 1: Online Linear Programming
 
 nrm.py contains useful functions for run the experiments. time_period.py, resource_dimension.py, and decision_dimension.py are the code to run the experiments and generate output in csv files for the three subfigures in Figure 1, respectively. Here are the documents for the optional arguments in these three files:
 
@@ -14,7 +15,7 @@ optional arguments:
   --budget_ratio	       The ratio between budget and the average consumption.
 
 
-Experiment 2: Proportional Matching
+## Experiment 2: Proportional Matching
 
 adx-alloc-data-2014 folder contains the data file generated following the procedure of "Yield Optimization of Display Advertising with Ad Exchange", Management Science. The dataset has 12 advertisers and 100,000 impressions. pub2-ads.txt contains the value of rho for each advertiser. pub2-sample.txt contains the revenue of matching each impression to the corresponding advertiser. We rescale the revenue so that the largest term is 1 in our experiment. We rescale \rho such that sum_j rho_j =1.5.
 
@@ -40,7 +41,7 @@ optional arguments:
   --sum_rho SUM_RHO     The sum of rho.
 
 
-Dependency:
+### Dependency:
 cvxpy                              1.0.31
 pandas                             0.20.2
 numpy                              1.16.6
