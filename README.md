@@ -8,12 +8,12 @@ nrm.py contains useful functions for run the experiments. time_period.py, resour
 optional arguments:
 <pre>
   -h, --help:            Show this help message and exit.
-  --T:		             The number of samples.
+  --T:                   The number of samples.
   --num_trials:	         The number of random trials.
   --num_params:	         The number of random parameters.
   --step_size_constant:  The step size is step_size_constant/sqrt{T}.
   --reference:	         Reference function in mirror descent
-  --budget_ratio:	     The ratio between budget and the average consumption.
+  --budget_ratio:        The ratio between budget and the average consumption.
 </pre>
 
 ## Experiment 2: Proportional Matching
